@@ -26,8 +26,8 @@ defmodule PlugStatus.Mixfile do
 
   defp deps do
     [
-      {:cowboy, ">= 2.6"},
-      {:plug, ">= 1.8"},
+      {:cowboy, "~> 2.6"},
+      {:plug, "~> 1.8"},
       {:poison, "~> 4.0"},
       {:earmark, "~> 1.2", only: :dev, runtime: false},
       {:ex_doc, "~> 0.19", only: :dev, runtime: false}
