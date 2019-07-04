@@ -26,11 +26,11 @@ defmodule PlugStatus.Mixfile do
 
   defp deps do
     [
-      {:cowboy, ">= 1.0.0"},
-      {:plug, ">= 0.12.0"},
-      {:poison, "~> 3.1"},
-      {:earmark, "~> 1.2.2", only: :dev, runtime: false},
-      {:ex_doc, "~> 0.16", only: :dev, runtime: false}
+      {:cowboy, ">= 2.6"},
+      {:plug, ">= 1.8"},
+      {:poison, "~> 4.0"},
+      {:earmark, "~> 1.2", only: :dev, runtime: false},
+      {:ex_doc, "~> 0.19", only: :dev, runtime: false}
     ]
   end
 
